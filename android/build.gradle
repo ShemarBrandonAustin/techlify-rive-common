@@ -64,3 +64,7 @@ def ndkVersionFromLocalProperties() {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
+
+tasks.named("externalNativeBuildRelease").configure {
+    dependsOn("mergeProfileNativeLibs")
+}
