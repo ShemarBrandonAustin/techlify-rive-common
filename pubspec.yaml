@@ -1,5 +1,5 @@
 name: rive_common
-version: 0.4.11
+version: 0.4.12
 homepage: https://rive.app
 description: Share Rive functionality between the editor and the Flutter runtime.
 repository: https://github.com/rive-app/rive-flutter
